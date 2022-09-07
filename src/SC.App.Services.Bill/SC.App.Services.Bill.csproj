@@ -1,0 +1,91 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Configurations>local;dev;preview;live</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Update="appsettings.json">
+      <TransformOnBuild>true</TransformOnBuild>
+    </Content>
+    <None Include="appsettings.local.json">
+      <IsTransformFile>true</IsTransformFile>
+      <DependentUpon>appsettings.json</DependentUpon>
+    </None>
+    <None Include="appsettings.dev.json">
+      <IsTransformFile>true</IsTransformFile>
+      <DependentUpon>appsettings.json</DependentUpon>
+    </None>
+    <None Include="appsettings.preview.json">
+      <IsTransformFile>true</IsTransformFile>
+      <DependentUpon>appsettings.json</DependentUpon>
+    </None>
+    <None Include="appsettings.live.json">
+      <IsTransformFile>true</IsTransformFile>
+      <DependentUpon>appsettings.json</DependentUpon>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="web.config">
+      <TransformOnBuild>true</TransformOnBuild>
+    </Content>
+    <None Include="web.local.config">
+      <IsTransformFile>true</IsTransformFile>
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.dev.config">
+      <IsTransformFile>true</IsTransformFile>
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.preview.config">
+      <IsTransformFile>true</IsTransformFile>
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.live.config">
+      <IsTransformFile>true</IsTransformFile>
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Content Remove="appsettings.local.json" />
+    <Content Remove="appsettings.dev.json" />
+    <Content Remove="appsettings.preview.json" />
+    <Content Remove="appsettings.live.json" />
+    <Content Remove="web.local.config" />
+    <Content Remove="web.dev.config" />
+    <Content Remove="web.preview.config" />
+    <Content Remove="web.live.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.1.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.HealthChecks" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="5.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="5.0.1" />
+    <PackageReference Include="Microsoft.VisualStudio.SlowCheetah" Version="3.2.26">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="NSwag.AspNetCore" Version="13.11.1" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="5.0.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="4.1.0" />
+    <PackageReference Include="Serilog.Enrichers.Environment" Version="2.1.3" />
+    <PackageReference Include="Serilog.Sinks.Elasticsearch" Version="8.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SC.App.Services.Bill.Business\SC.App.Services.Bill.Business.csproj" />
+    <ProjectReference Include="..\SC.App.Services.Bill.Client\SC.App.Services.Bill.Client.csproj" />
+    <ProjectReference Include="..\SC.App.Services.Bill.Common\SC.App.Services.Bill.Common.csproj" />
+  </ItemGroup>
+
+</Project>

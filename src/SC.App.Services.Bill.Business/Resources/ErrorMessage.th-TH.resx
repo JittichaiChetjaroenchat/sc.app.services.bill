@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="102080001" xml:space="preserve">
+    <value>ไม่พบข้อมูลบิล</value>
+  </data>
+  <data name="102080002" xml:space="preserve">
+    <value>ไม่พบข้อมูลส่วนลดบิล</value>
+  </data>
+  <data name="102080003" xml:space="preserve">
+    <value>ไม่พบข้อมูลสถานะบิล</value>
+  </data>
+  <data name="102080004" xml:space="preserve">
+    <value>ไม่พบข้อมูลผู้รับบิล</value>
+  </data>
+  <data name="102080005" xml:space="preserve">
+    <value>ไม่พบข้อมูลการติดต่อผู้รับบิล</value>
+  </data>
+  <data name="102080006" xml:space="preserve">
+    <value>ไม่พบข้อมูลการตั้งค่าบิล</value>
+  </data>
+  <data name="102080007" xml:space="preserve">
+    <value>ไม่พบข้อมูลการชำระเงิน</value>
+  </data>
+  <data name="102080008" xml:space="preserve">
+    <value>ไม่พบข้อมูลสถานะการชำระเงิน</value>
+  </data>
+  <data name="102080009" xml:space="preserve">
+    <value>ไม่สามารถสร้างการชำระเงินใหม่ได้  กรุณาดำเนินการชำระเงินที่มีอยู่ให้สำเร็จหรือยกเลิกก่อน</value>
+  </data>
+  <data name="102080010" xml:space="preserve">
+    <value>ไม่พบข้อมูลคำสั่งซื้อ</value>
+  </data>
+  <data name="102080011" xml:space="preserve">
+    <value>ไม่พบข้อมูลลูกค้า</value>
+  </data>
+  <data name="102080012" xml:space="preserve">
+    <value>ไม่พบข้อมูลออเดอร์ขนส่ง</value>
+  </data>
+  <data name="102080013" xml:space="preserve">
+    <value>ไม่พบข้อมูลพื้นที่</value>
+  </data>
+  <data name="102080014" xml:space="preserve">
+    <value>ไม่พบช่องของผู้ใช้งาน</value>
+  </data>
+  <data name="102080015" xml:space="preserve">
+    <value>ไม่พบบัญชีร้านค้า</value>
+  </data>
+  <data name="102080016" xml:space="preserve">
+    <value>ไม่พบบัญชีขนส่ง</value>
+  </data>
+  <data name="102080017" xml:space="preserve">
+    <value>ไม่พบข้อมูลการจัดส่ง</value>
+  </data>
+  <data name="102080018" xml:space="preserve">
+    <value>ไม่พบข้อมูลการตั้งค่าบิล</value>
+  </data>
+  <data name="102080019" xml:space="preserve">
+    <value>ไม่พบข้อมูลเครดิต</value>
+  </data>
+  <data name="102080020" xml:space="preserve">
+    <value>ไม่พบข้อมูลสรุปออเดอร์</value>
+  </data>
+  <data name="102080021" xml:space="preserve">
+    <value>เครดิตไม่เพียงพอในการขอเลขพัสดุ</value>
+  </data>
+  <data name="102080022" xml:space="preserve">
+    <value>เกิดข้อผิดพลาดในการสร้างขอเลขพัสดุ</value>
+  </data>
+  <data name="102080023" xml:space="preserve">
+    <value>ไม่สามารถบันทึกเอกสารได้</value>
+  </data>
+  <data name="102080024" xml:space="preserve">
+    <value>ไม่สามารถลบเอกสารได้</value>
+  </data>
+  <data name="102080025" xml:space="preserve">
+    <value>ไม่สามารถจดจำออเดอร์ว่าชำระเงินแล้ว</value>
+  </data>
+  <data name="102080026" xml:space="preserve">
+    <value>ไม่สามารถยกเลิกออเดอร์ได้</value>
+  </data>
+  <data name="102080027" xml:space="preserve">
+    <value>ไม่สามารถยืนยันออเดอร์ได้</value>
+  </data>
+  <data name="102080028" xml:space="preserve">
+    <value>ไม่สามารถสร้างบิลใหม่ได้  กรุณาดำเนินการบิลที่มีอยู่ให้สำเร็จหรือยกเลิกก่อน</value>
+  </data>
+  <data name="102080029" xml:space="preserve">
+    <value>ไม่พบข้อมูลพัสดุ</value>
+  </data>
+  <data name="102080030" xml:space="preserve">
+    <value>เกิดข้อผิดพลาดในการแก้ไขข้อมูลพัสดุ</value>
+  </data>
+  <data name="102080031" xml:space="preserve">
+    <value>ไม่พบข้อมูลการจัดส่ง</value>
+  </data>
+  <data name="102080032" xml:space="preserve">
+    <value>ไม่เปิดใช้งานฟังก์ชันขนส่งเข้ารับที่บ้าน (Pick up)</value>
+  </data>
+  <data name="102080033" xml:space="preserve">
+    <value>ไม่เปิดใช้งานฟังก์ชันนำส่งเองที่ Shop (Drop off)</value>
+  </data>
+  <data name="102080034" xml:space="preserve">
+    <value>ไม่เปิดใช้งานฟังก์ชันการส่งปกติ (Standard)</value>
+  </data>
+  <data name="102080035" xml:space="preserve">
+    <value>ไม่เปิดใช้งานฟังก์ชันการส่งด่วนพิเศษ (Express)</value>
+  </data>
+  <data name="102080036" xml:space="preserve">
+    <value>ไม่เปิดใช้งานฟังก์ชันการเก็บเงินก่อนส่งสินค้า (Standard)</value>
+  </data>
+  <data name="102080037" xml:space="preserve">
+    <value>ไม่เปิดใช้งานฟังก์ชันการเก็บเงินปลายทาง (COD)</value>
+  </data>
+  <data name="102080038" xml:space="preserve">
+    <value>ไม่เปิดใช้งานฟังก์ชันการไม่มีประกันสินค้า</value>
+  </data>
+  <data name="102080039" xml:space="preserve">
+    <value>ไม่เปิดใช้งานฟังก์ชันการประกันสินค้า</value>
+  </data>
+  <data name="102080040" xml:space="preserve">
+    <value>กรุณาเลือกขนส่งที่ต้องการ</value>
+  </data>
+  <data name="102080041" xml:space="preserve">
+    <value>ไม่พบข้อมูลแท็ก</value>
+  </data>
+  <data name="102080042" xml:space="preserve">
+    <value>ข้อมูลแท็กมีอยู่แล้ว</value>
+  </data>
+  <data name="102080043" xml:space="preserve">
+    <value>ไม่พบข้อมูลแท็กของบิล</value>
+  </data>
+  <data name="102080044" xml:space="preserve">
+    <value>ข้อมูลแท็กบิลมีอยู่แล้ว</value>
+  </data>
+  <data name="102080045" xml:space="preserve">
+    <value>ไม่พบข้อมูลการตรวจสอบการชำระเงิน</value>
+  </data>
+  <data name="102080046" xml:space="preserve">
+    <value>ไม่พบข้อมูลการตั้งค่าการชำระเงิน</value>
+  </data>
+  <data name="102080047" xml:space="preserve">
+    <value>เครดิตไม่เพียงพอในการตรวจสอบสลิป</value>
+  </data>
+  <data name="102080048" xml:space="preserve">
+    <value>เครดิตไม่เพียงพอในการยืนยันบิล</value>
+  </data>
+  <data name="102080049" xml:space="preserve">
+    <value>ไม่พบข้อมูลการแจ้งเตือนบิล</value>
+  </data>
+</root>

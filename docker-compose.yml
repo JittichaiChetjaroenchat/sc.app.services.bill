@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  syncchat-app-services-bill:
+    image: syncchat/app-services-bill:latest
+    container_name: syncchat_app_services_bill
+    ports:
+        - 5000:5000
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    
